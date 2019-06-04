@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_gravity="center"
+        android:contentDescription="logo"
+        android:src="@drawable/logo"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/timeout"
+        android:gravity="center"
+        android:textSize="@dimen/quiz_app_text_size"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorAccent">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/quiz_app_text_size">
+    </TextView>
+
+    <Button
+        android:onClick="btnTryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tryagain_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/user_horizontal_margin">
+    </Button>
+
+</LinearLayout>
