@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <EditText
+        android:id="@+id/beginLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/endLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/btn_padding"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/findpathId"
+            android:layout_width="@dimen/layout_width_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/find_path" />
+
+        <ImageView
+            android:layout_width="@dimen/layout_width_0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_map_black_24dp"
+            android:padding="@dimen/img_txt_padding"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/txtDistance"
+            android:layout_width="@dimen/layout_width_0dp"
+            android:paddingLeft="@dimen/img_txt_padding"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5" />
+
+        <ImageView
+            android:layout_width="@dimen/layout_width_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/img_txt_padding"
+            android:src="@drawable/ic_alarm_black_24dp"/>
+
+        <TextView
+            android:id="@+id/txtDuration"
+            android:layout_width="@dimen/layout_width_0dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/img_txt_padding"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"/>
+
+    </LinearLayout>
+    <fragment
+        android:id="@+id/mMap"
+        tools:context="com.example.mapwithmarker.MainActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

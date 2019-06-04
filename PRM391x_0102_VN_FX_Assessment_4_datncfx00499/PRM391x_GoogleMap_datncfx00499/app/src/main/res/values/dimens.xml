@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width_0dp">0dp</dimen>
+    <dimen name="img_txt_padding">2dp</dimen>
+    <dimen name="btn_padding">5dp</dimen>
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+</resources>
