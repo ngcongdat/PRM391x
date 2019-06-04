@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PRM391x_AlarmClock_datncfx00499</string>
+    <string name="alarm">Alarm</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="add">Add</string>
+    <string name="alarm_clock">Alarm Clock</string>
+    <string name="textOff">OFF</string>
+    <string name="textOn">ON</string>
+    <string name="update_alarm">Update</string>
+    <string name="close_update_alarm">Close</string>
+</resources>
