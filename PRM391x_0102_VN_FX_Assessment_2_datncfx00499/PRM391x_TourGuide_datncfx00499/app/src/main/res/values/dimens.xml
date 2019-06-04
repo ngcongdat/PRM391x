@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_activity_margin">5dp</dimen>
+    <dimen name="vn_width">200dp</dimen>
+    <dimen name="vn_height">150dp</dimen>
+    <dimen name="hn_text_size">20sp</dimen>
+    <dimen name="icon_activity_width">100dp</dimen>
+    <dimen name="icon_activity_height">100dp</dimen>
+    <dimen name="activity_text_size">15sp</dimen>
+    <dimen name="content_insert_start">0dp</dimen>
+    <dimen name="content_insert_end">30dp</dimen>
+    <dimen name="back_icon_padding">10dp</dimen>
+    <dimen name="dialog_title">35sp</dimen>
+</resources>

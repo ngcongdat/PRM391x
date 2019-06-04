@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actionbar_hotel"
+    app:contentInsetStart="@dimen/content_insert_start"
+    app:contentInsetEnd="@dimen/content_insert_end"
+    android:background="@color/actionbar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:onClick="backHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back"
+            android:padding="@dimen/back_icon_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hotel"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/hn_text_size"
+            android:textColor="@color/text_actionbar"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

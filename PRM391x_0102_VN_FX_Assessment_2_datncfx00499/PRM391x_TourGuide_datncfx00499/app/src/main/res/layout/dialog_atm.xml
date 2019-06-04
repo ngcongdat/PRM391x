@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/atm_list_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_atm"
+        android:textSize="@dimen/hn_text_size"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/actionbar"
+        android:padding="@dimen/back_icon_padding"
+        android:textColor="@color/hn_text_color"/>
+
+    <TextView
+        android:id="@+id/txtDialogAtmName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/hn_text_color"
+        android:padding="@dimen/back_icon_padding" />
+
+    <TextView
+        android:id="@+id/txtDialogAtmAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:textColor="@color/hn_text_color"
+        android:textAlignment="gravity"
+        android:padding="@dimen/back_icon_padding" />
+
+    <TextView
+        android:id="@+id/txtDialogAtmOpenningHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:textColor="@color/hn_text_color"
+        android:padding="@dimen/back_icon_padding" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok_btn"
+            android:layout_marginBottom="@dimen/back_icon_padding"/>
+    </LinearLayout>
+
+</LinearLayout>

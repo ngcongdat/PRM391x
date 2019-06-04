@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PRM391x_TourGuide_datncfx00499</string>
+
+    <string name="ha_noi">Hà Nội, Việt Nam</string>
+
+    <string name="hotel">Khách Sạn</string>
+    <string name="atm">ATM</string>
+    <string name="hospital">Bệnh Viện</string>
+    <string name="bus">Xe Bus</string>
+    <string name="dialog_hotel">Thông Tin Khách Sạn</string>
+    <string name="dialog_atm">Thông Tin ATM</string>
+    <string name="dialog_hospital">Thông Tin Bệnh viện</string>
+    <string name="dialog_bus">Thông Tin Xe Bus</string>
+    <string name="tour_guide_app">Tour Guide App</string>
+    <string name="ok_btn">OK</string>
+</resources>

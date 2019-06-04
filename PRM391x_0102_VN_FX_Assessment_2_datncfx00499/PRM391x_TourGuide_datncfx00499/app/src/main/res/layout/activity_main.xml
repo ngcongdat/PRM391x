@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:background="@color/actionbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tour_guide_app"
+            android:textSize="@dimen/hn_text_size"
+            android:textStyle="bold"
+            android:textColor="@color/text_actionbar"
+            android:gravity="center"/>
+
+
+
+
+    </LinearLayout>
+
+    <!-- Layout Flag VietNam -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/vn_width"
+            android:layout_height="@dimen/vn_height"
+            android:layout_gravity="center"
+            android:src="@drawable/vietnam"/>
+
+        <Spinner
+            android:id="@+id/spnLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <!-- Layout Hotel and ATM -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.6"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- Layout Hotel -->
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/showHotel"
+                android:layout_width="@dimen/icon_activity_width"
+                android:layout_height="@dimen/icon_activity_height"
+                android:src="@drawable/hotel"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotel"
+                android:layout_gravity="center"
+                android:textSize="@dimen/activity_text_size"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <!-- Layout ATM -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/showAtm"
+                android:layout_width="@dimen/icon_activity_width"
+                android:layout_height="@dimen/icon_activity_height"
+                android:src="@drawable/atm_machine"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atm"
+                android:layout_gravity="center"
+                android:textSize="@dimen/activity_text_size"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Layout Hopsital and Bus -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.6"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- Layout Hospital -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/showHospital"
+                android:layout_width="@dimen/icon_activity_width"
+                android:layout_height="@dimen/icon_activity_height"
+                android:src="@drawable/hospital"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hospital"
+                android:layout_gravity="center"
+                android:textSize="@dimen/activity_text_size"/>
+
+        </LinearLayout>
+
+        <!-- Layout Bus -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/showBus"
+                android:layout_width="@dimen/icon_activity_width"
+                android:layout_height="@dimen/icon_activity_height"
+                android:src="@drawable/metro"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bus"
+                android:layout_gravity="center"
+                android:textSize="@dimen/activity_text_size"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

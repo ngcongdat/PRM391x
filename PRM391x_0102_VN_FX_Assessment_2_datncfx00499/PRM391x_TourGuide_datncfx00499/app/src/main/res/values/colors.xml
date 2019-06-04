@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="hn_text_color">#fff</color>
+    <color name="atm_list_background">#39d4ff</color>
+    <color name="hotel_list_background">#39df5d</color>
+    <color name="hospital_list_background">#dd6dff</color>
+    <color name="bus_list_background">#9273ff</color>
+    <color name="text_actionbar">#ffffff</color>
+    <color name="actionbar">#8bc34a</color>
+    <color name="statusbar">#689f38</color>
+</resources>
